@@ -1,0 +1,19 @@
+{
+    "price_filters": {
+        "category": "Computers",
+        "subCategory": "Desktops",
+        "priceFilters": [
+            "Under 1000.00",
+            "1000.00 - 1200.00",
+            "Over 1200.00"
+        ]
+    },
+    "search": [
+        {
+            "searchText": "computer"
+        },
+        {
+            "searchText": "phone"
+        }
+    ]
+}

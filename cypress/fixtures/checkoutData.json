@@ -1,0 +1,58 @@
+{
+    "validCheckoutScenario": {
+        "productDetails": [
+            {
+                "name": "Build your own computer",
+                "category": "Computers",
+                "subCategory": "Desktop",
+                "type": "computer",
+                "qty": "1",
+                "selections": {
+                    "Processor": {
+                        "value": "13",
+                        "text": "2.2 GHz Intel Pentium Dual-Core E2200"
+                    },
+                    "RAM": {
+                        "value": "16",
+                        "text": "4GB [+20.00]"
+                    },
+                    "HDD": {
+                        "value": "19",
+                        "text": "400 GB  [+100.00]"
+                    },
+                    "OS": {
+                        "value": "20",
+                        "text": "Windows 7  [+50.00]"
+                    },
+                    "Software": {
+                        "value": "23",
+                        "text": "Total Commander [+5.00]"
+                    }
+                }
+            },
+            {
+                "name": "14.1-inch Laptop",
+                "type": "",
+                "qty": "2"
+            }
+        ],
+        "billingAddress": {
+            "firstName": "Zainab",
+            "lastName": "Abbas",
+            "email": "abbaszainab045@gmail.com",
+            "company": "",
+            "country": "Pakistan",
+            "state": "Other (Non US)",
+            "city": "Karachi",
+            "address1": "123 Main Street",
+            "address2": "",
+            "zip": "74400",
+            "phone": "03001234567",
+            "fax": ""
+        },
+        "deliveryMethod": "Next Day Air (0.00)",
+        "paymentMethod": "Check / Money Order (5.00)",
+        "country": "Pakistan",
+        "state": "Other (Non US)"
+    }
+}

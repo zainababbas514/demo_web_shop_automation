@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Cypress generated files
+cypress/screenshots/
+cypress/videos/
+
+# Test reports
+cypress/reports/
+
+# Cypress cache
+.cypress/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/

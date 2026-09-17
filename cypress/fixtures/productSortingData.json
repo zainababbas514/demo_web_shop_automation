@@ -1,0 +1,18 @@
+{
+  "sortByNameAtoZ": {
+    "category": "Computers",
+    "subCategory": "Accessories"
+  },
+  "sortByNameZtoA": {
+    "category": "Jewelry",
+    "subCategory": ""
+  },
+  "sortByPriceLowToHigh": {
+    "category": "Gift Cards",
+    "subCategory": ""
+  },
+  "sortByPriceHighToLow": {
+    "category": "Gift Cards",
+    "subCategory": ""
+  }
+}

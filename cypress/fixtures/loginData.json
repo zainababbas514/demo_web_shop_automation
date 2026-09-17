@@ -1,0 +1,20 @@
+{
+  "invalid_credentials": [
+    {
+      "email": "user@example.com",
+      "password": "WrongPassword"
+    },
+    {
+      "email": "user@example.com",
+      "password": ""
+    },
+    {
+      "email": "",
+      "password": "WrongPassword"
+    },
+    {
+      "email": "",
+      "password": ""
+    }
+  ]
+}
