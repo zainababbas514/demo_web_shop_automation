@@ -39,7 +39,7 @@ The automation suite covers the following functional areas:
 * Checkout and order placement
 * Order confirmation validation
 
-Detailed manual test cases are maintained separately in the `cypress/testCases` folder.
+Detailed manual test cases are maintained separately in the `testCases` folder.
 
 ## ✨ Framework Features
 
@@ -242,7 +242,7 @@ These generated files are excluded from Git through `.gitignore`.
 Detailed manual test cases are maintained separately in:
 
 ```text
-cypress/testCases/Demo_Web_Shop_Test_Cases.xlsx
+testCases/Demo_Web_Shop_Test_Cases.xlsx
 ```
 
 ## 🚀 Setup
