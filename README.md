@@ -6,9 +6,7 @@ A Cypress-based test automation project for testing the **Demo Web Shop** applic
 
 This project automates key e-commerce workflows of the Demo Web Shop application, including user registration and login, product display, product search, product filtering, product sorting, shopping cart management, and checkout.
 
-The framework is designed with reusable Page Objects, shared page components, Cypress custom commands, external JSON test data, environment variables, assertions, screenshots, and Mochawesome reporting.
-
-This project is created as part of a QA automation portfolio to demonstrate practical Cypress and JavaScript automation skills.
+The framework is designed with reusable Page Objects, Cypress custom commands, external JSON test data, environment variables, assertions, screenshots, and Mochawesome reporting.
 
 ## 🛠️ Tech Stack
 
@@ -27,7 +25,6 @@ The automation suite covers the following functional areas:
 
 * User registration
 * User login with valid and invalid credentials
-* Login field validation
 * Product display
 * Product search
 * Product filtering by price
@@ -44,7 +41,6 @@ Detailed manual test cases are maintained separately in the `testCases` folder.
 ## ✨ Framework Features
 
 * Page Object Model for reusable and maintainable test code
-* Reusable page components for common UI elements
 * Cypress custom commands for common workflows
 * JSON fixtures for external test data
 * Environment variables for sensitive test credentials
@@ -106,6 +102,7 @@ DemoWebShopTests
 │     └─ Demo_Web_Shop_Test_Cases.xlsx
 │
 ├─ .env.example
+├─ .env
 ├─ .gitignore
 ├─ cypress.config.js
 ├─ package-lock.json
@@ -122,7 +119,6 @@ The project follows the **Page Object Model** to separate UI interaction logic f
 Page Objects contain:
 
 * Element locators
-* Reusable UI actions
 * Page-specific methods
 * Common page interactions
 
