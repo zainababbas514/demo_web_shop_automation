@@ -27,7 +27,9 @@ describe("Test Cart Functionality", () => {
             const expectedCartCount = info.cartCount;
 
             // Verify that the cart count matches the number of products added.
-            homePage.header().checkCartQuantity(expectedCartCount);
+            homePage.header().checkCartQuantity().then((cartQuantity) => {
+                expect(cartQuantity).to.equal(expectedCartCount.toString());
+            });
 
             homePage.header().clickShoppingCartOption();
 

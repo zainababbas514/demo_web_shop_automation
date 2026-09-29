@@ -29,7 +29,7 @@ describe("Test Cart Functionality", () => {
     });
 
     it("validate user can place an order", () => {
-        const testData = checkoutData["validCheckoutScenario"];
+        const testData = checkoutData["checkoutScenario"];
 
         // Add the products required for the test.
         cy.addProductsToCart(testData.productDetails);

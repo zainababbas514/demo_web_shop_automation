@@ -26,10 +26,9 @@ class Header {
             .click();
     }
 
-    checkCartQuantity(expectedQuantity) {
-        this.elements.cartQuantity().then(($quantity) => {
-            const cartQuantity = $quantity.text().match(/\d+/)[0];
-            expect(cartQuantity).to.equal(expectedQuantity.toString());
+    checkCartQuantity() {
+        return this.elements.cartQuantity().then(($quantity) => {
+            return $quantity.text().match(/\d+/)[0];
         });
     }
 

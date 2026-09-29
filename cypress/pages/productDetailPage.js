@@ -1,7 +1,7 @@
 class ProductDetailPage {
     elements = {
-        processorRadios: () => cy.get("#product_attribute_16_5_4"),
-        ramRadios: () => cy.get("#product_attribute_16_6_5"),
+        processorDropdown: () => cy.get("#product_attribute_16_5_4"),
+        ramDropdown: () => cy.get("#product_attribute_16_6_5"),
         hddRadios: () => cy.get("input[name='product_attribute_16_3_6']"),
         osRadios: () => cy.get("input[name='product_attribute_16_4_7']"),
         softwareCheckboxes: () => cy.get("input[name='product_attribute_16_8_8']"),
@@ -27,7 +27,7 @@ class ProductDetailPage {
         element.then(($els) => {
             // Clear any existing selection before selecting the requested option.
             cy.wrap($els).uncheck();
-            cy.wrap($els).check();
+            cy.wrap($els).check(value);
         });
     }
 
@@ -37,12 +37,12 @@ class ProductDetailPage {
 
     applyComputerConfiguration(selections) {
         this.selectByValue(
-            this.elements.processorRadios(),
+            this.elements.processorDropdown(),
             selections.Processor.value
         );
 
         this.selectByValue(
-            this.elements.ramRadios(),
+            this.elements.ramDropdown(),
             selections.RAM.value
         );
 

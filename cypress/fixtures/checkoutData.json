@@ -1,5 +1,5 @@
 {
-    "validCheckoutScenario": {
+    "checkoutScenario": {
         "productDetails": [
             {
                 "name": "Build your own computer",
